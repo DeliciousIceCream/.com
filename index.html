@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Delicious Ice Cream</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Delicious Ice Cream</h1>
+    </header>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#flavors">Flavors</a>
+      <a href="#contact">Contact</a>
+      <a href="#order">Order</a>
+    </nav>
+    <div class="container">
+      <section id="about">
+        <h2>About Us</h2>
+        <p>
+          Welcome to Delicious Ice Cream, where we craft the finest, freshest
+          ice cream made with love and quality ingredients.
+        </p>
+      </section>
+      <section id="flavors">
+        <h2>Our Flavors</h2>
+        <div class="flavors">
+          <div class="flavor">🍦 Vanilla</div>
+          <div class="flavor">🍫 Chocolate</div>
+          <div class="flavor">🍓 Strawberry</div>
+          <div class="flavor">🌱 Mint</div>
+          <div class="flavor">🥜 Peanut Butter</div>
+          <div class="flavor">🍪 Cookies & Cream</div>
+        </div>
+      </section>
+      <section id="order">
+        <h2>Order here</h2>
+        <div>
+          <p>Follow these steps to proceed to checkout</p>
+        </div>
+      </section>
+      <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: test@deliciousicecream.com</p>
+        <p>Phone: 000-000-0000</p>
+        <div class="contact-icons">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+      </section>
+    </div>
+    <footer>
+      <p>
+        &copy; <span id="year"></span> Delicious Ice Cream. All rights reserved.
+      </p>
+    </footer>
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
